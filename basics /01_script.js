@@ -14,7 +14,7 @@ fs.rename("hey.txt",'hello.txt',function(err){
     if (err) console.error(err);
     else console.log("done");
 })
-// rename -  file system 
+// copy a file into another file -  file system 
 fs.copyFile('hello.txt',"chach.txt",function(err){
     if (err) console.error(err.message);
     else console.log(done)
